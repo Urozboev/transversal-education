@@ -9,9 +9,9 @@ function Footer() {
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <div className="site_logo">
-                                <a className="site_link" href="index_1.html">
+                                <Link className="site_link" to="/">
                                     <img src="/assets/images/logo-white.png" alt="Transversal-education" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-lg-6">
