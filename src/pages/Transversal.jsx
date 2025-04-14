@@ -332,7 +332,7 @@ function Transversal() {
                     <span className="title_icon">
                       <img
                         src="assets/images/favourite_icon.svg"
-                        alt="Transversal"
+                        alt="transversal"
                       />
                     </span>
                     <span className="title_text"> Bo'limlar </span>
@@ -362,6 +362,12 @@ function Transversal() {
                       <Link to="/keys">
                         <i className="fa-solid fa-caret-right"></i>
                         <span className="category_name">Keyslar</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/laws">
+                        <i className="fa-solid fa-caret-right"></i>
+                        <span className="category_name">Qaror va qonunlar</span>
                       </Link>
                     </li>
                     <li>

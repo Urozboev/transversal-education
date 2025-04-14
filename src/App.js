@@ -10,6 +10,7 @@ import PsychologyQuiz from './pages/PsychologyQuiz'
 import Transversal from './pages/Transversal'
 import Keys from './pages/Keys'
 import { useEffect } from 'react'
+import Laws from './pages/Laws'
 
 function App() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/report" element={<Report />} />
+        <Route path="/laws" element={<Laws />} />
         <Route path="/transversal" element={<Transversal />} />
         <Route path="/keys" element={<Keys />} />
         <Route path="/psychology-quiz" element={<PsychologyQuizzes />} />

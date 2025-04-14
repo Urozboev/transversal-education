@@ -215,7 +215,14 @@ const Test = ({ questionsData, setQuizNumber, setQuizLength, quizName }) => {
                                     </Flex>
                                 </div>
                                 :
+                                ''
+                        }
+                        {
+                            quizName === "finish" && correctCount < questions.length / 2
+                                ?
                                 <h3 style={{ color: "#26aba3" }}>Sertifikat olish uchun testlarni 50%dan ko'proq ishlang!</h3>
+                                :
+                                ''
                         }
                     </div>
                 ) : (

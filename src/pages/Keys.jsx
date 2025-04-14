@@ -377,7 +377,7 @@ function Keys() {
                     <span className="title_icon">
                       <img
                         src="assets/images/favourite_icon.svg"
-                        alt="Talking Minds - Psychotherapist Site Template"
+                        alt="transversal"
                       />
                     </span>
                     <span className="title_text"> Bo'limlar </span>
@@ -407,6 +407,12 @@ function Keys() {
                       <Link to="/keys">
                         <i className="fa-solid fa-caret-right"></i>
                         <span className="category_name">Keyslar</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/laws">
+                        <i className="fa-solid fa-caret-right"></i>
+                        <span className="category_name">Qaror va qonunlar</span>
                       </Link>
                     </li>
                     <li>

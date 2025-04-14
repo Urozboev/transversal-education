@@ -760,3 +760,110 @@ export const psychologyquestions = {
     }
   ]
 };
+
+export const reportQuestions = {
+  first: [
+    {
+      id: 1,
+      type: 'multiple_choice',
+      quiz: 'Tarbiyachilar uchun transversal kompetentsiyalarni shakllantirish jarayonida integrativ metodlardan foydalanish qanchalik muhim? Quyidagi variantlardan eng to‘g‘ri va asosli javobni tanlang.',
+      options: ["Tarbiyachilar bir necha fanlar bilan bog‘liq holatlarda muammolarni hal qilish ko‘nikmasiga ega bo‘lishlari uchun integrativ yondashuv shart.", "Har bir pedagog o‘z mutaxassisligi doirasida ishlashi kerak, shuning uchun integratsiya ortiqcha.", "Integrativ metodlar tarbiyachilar uchun unchalik muhim emas, chunki asosiy kompetentsiyalar pedagogikaga bog‘liq.", "Integrativ metodlar faqat yuqori ta’lim tizimida qo‘llaniladi, maktabgacha ta’limda ularga ehtiyoj yo‘q."],
+      answer: "Tarbiyachilar bir necha fanlar bilan bog‘liq holatlarda muammolarni hal qilish ko‘nikmasiga ega bo‘lishlari uchun integrativ yondashuv shart.",
+    },
+    {
+      id: 2,
+      type: 'multiple_choice',
+      quiz: 'Siz tajribali tarbiyachisiz. Guruhingizdagi bolalar yangi interaktiv dars metodikasiga qiyinchilik bilan moslashmoqda. Ba’zilari tez o‘zlashtirayotgan bo‘lsa, boshqalari ortda qolmoqda. Shuningdek, ota-onalarning ba’zilari ushbu yangi metodni yoqlamayapti.Siz qanday strategiyani tanlaysiz?',
+      options: ["Ota-onalar bilan tushuntirish ishlari olib borish, bolalarning individual o‘ziga xos xususiyatlarini hisobga olgan holda metodikani moslashtirish.", "Faqatgina ota-onalarning fikrini inobatga olib, eski usulga qaytish.", "Faqat oldindan tuzilgan metodikaga tayanib, bolaning individual ehtiyojlarini hisobga olmaslik.", "Tez o‘zlashtirayotgan bolalarni oldinga chiqarib, ortda qolayotganlarga e’tibor bermaslik."],
+      answer: "Ota-onalar bilan tushuntirish ishlari olib borish, bolalarning individual o‘ziga xos xususiyatlarini hisobga olgan holda metodikani moslashtirish.",
+    },
+    {
+      id: 3,
+      type: 'multiple_choice',
+      quiz: 'Siz yangi tarbiyachi sifatida bolalar bilan mashg‘ulot o‘tkazyapsiz. Dastlabki kunlarda bolalar sizni diqqat bilan tinglashsa-da, keyinchalik ularning faolligi pasayib ketdi. Ba’zi bolalar e’tiborini yo‘qotyapti, ba’zilari esa faol ishtirok etmayapti. Sizning harakatlaringiz qanday bo‘ladi?',
+      options: ["Mashg‘ulot uslublarini diversifikatsiya qilish, kinestetik, vizual va audial metodlardan foydalanish. Shuningdek, bolalarni faol jalb qilish uchun interaktiv metodlarni qo‘llash.", "Bolalarning qiziqishini oshirish uchun dars jarayoniga interaktiv o‘yinlar, jismoniy faollik mashqlari yoki musiqali elementlarni qo‘shaman. Bu orqali ularning e’tiborini jalb qilaman va faol ishtirokini rag‘batlantiraman.", "Faolligi pasaygan yoki ishtirok etmayotgan bolalarning sabablarini aniqlashga harakat qilaman. Ularning qiziqishlarini hisobga olib, individual yondashuv asosida ishtirok etishga undayman.", "Dars mazmunini bolalarning yosh xususiyatlariga mos ravishda soddalashtiraman va mavzularni ularning hayotiga yaqin misollar bilan tushuntiraman. Shuningdek, ularni ilhomlantiruvchi tarbiyaviy hikoyalar va lavhalardan foydalanaman."],
+      answer: "Mashg‘ulot uslublarini diversifikatsiya qilish, kinestetik, vizual va audial metodlardan foydalanish. Shuningdek, bolalarni faol jalb qilish uchun interaktiv metodlarni qo‘llash.",
+    },
+    {
+      id: 4,
+      type: 'multiple_choice',
+      quiz: 'Bir tarbiyachi innovatsion metodlardan foydalanishni xohlamaydi, chunki unga an’anaviy metodlar osonroq va tushunarliroq. Siz rahbar sifatida ushbu muammoni qanday hal qilasiz?',
+      options: ["Pedagog bilan individual suhbat o‘tkazish, treninglar va tajriba almashish sessiyalarini tashkil qilish.", "Tarbiyachi bilan ochiq va samimiy suhbat o‘tkazaman. Innovatsion metodlarning bolalar rivojiga qanday ijobiy ta’sir ko‘rsatishini misollar orqali tushuntiraman va uni yangiliklarga qadam qo‘yishga ruhlantiraman.", "Innovatsion metodlarni o‘zlashtirishda unga amaliy yordam ko‘rsataman, treninglar tashkil qilaman yoki tajribali hamkasblar bilan hamkorlik qilish imkoniyatini yarataman.", "Yangi metodlarni birdaniga joriy qilish o‘rniga, asta-sekin, unga qulay bo‘lgan yo‘l bilan joriy etishni taklif qilaman. Shu orqali u bosqichma-bosqich innovatsion yondashuvga o‘rganib boradi."],
+      answer: "Pedagog bilan individual suhbat o‘tkazish, treninglar va tajriba almashish sessiyalarini tashkil qilish.",
+    },
+    {
+      id: 5,
+      type: 'multiple_choice',
+      quiz: 'Quyidagi usullardan qaysi biri ko‘proq interaktiv va transversal kompetentsiyalarni rivojlantirishga xizmat qiladi?',
+      options: ["Lektsiyalar orqali bilim berish", "Rolli o‘yinlar va muammoli ta’lim", "Faqat yozma topshiriqlar berish", "O‘quvchilar faqat o‘z-o‘ziga baho qo‘yishi"],
+      answer: "Rolli o‘yinlar va muammoli ta’lim",
+    },
+  ],
+  second: [
+    {
+      id: 1,
+      type: 'multiple_choice',
+      quiz: 'Transversal kompetentsiyalarni rivojlantirish uchun eng samarali ta’lim yondashuvi qaysi?',
+      options: ["Integrativ va tarmoqli yondashuv", "An’anaviy yondashuv", "Faoliyatga asoslangan yondashuv", "O‘qituvchi markazida bo‘lgan yondashuv"],
+      answer: "Integrativ va tarmoqli yondashuv",
+    },
+    {
+      id: 2,
+      type: 'multiple_choice',
+      quiz: 'Agar bolalar o‘quv materiallarini o‘zlashtirishda qiyinchiliklarga duch kelayotgan bo‘lsa, tarbiyachi qanday strategiyani tanlashi kerak?',
+      options: ["Differensial yondashuv asosida har bir bolaning individual xususiyatlarini inobatga olish", "Barcha bolalarga bir xil yondashuvni qo‘llash", "Ota-onalar bilan aloqani to‘xtatish", "Bolalarni jazolash orqali motivatsiya berish"],
+      answer: "Differensial yondashuv asosida har bir bolaning individual xususiyatlarini inobatga olish",
+    },
+    {
+      id: 3,
+      type: 'multiple_choice',
+      quiz: 'Quyidagi pedagogik yondashuvlardan qaysi biri xatolik hisoblanadi?',
+      options: ["Har bir bola uchun bir xil metodika tanlash", "O‘yin orqali o‘rgatish", "Muammoli ta’lim", "Differensial yondashuv"],
+      answer: "Har bir bola uchun bir xil metodika tanlash",
+    },
+    {
+      id: 4,
+      type: 'multiple_choice',
+      quiz: 'Bolalarning ijodiy fikrlash qobiliyatini rivojlantirish uchun qaysi metod eng mos?',
+      options: ["Boshqotirmalar va muammoli vaziyatlarni hal qilish metodikasi", "Tayyor ma’lumotlarni takrorlash va yod olish", "An’anaviy dars uslublari", "Ota-onalar bilan aloqani to‘xtatish"],
+      answer: "Boshqotirmalar va muammoli vaziyatlarni hal qilish metodikasi",
+    }
+  ],
+  third: [
+    {
+      id: 1,
+      type: 'multiple_choice',
+      quiz: 'Tarbiyachilar uchun transversal kompetentsiyalarni shakllantirish jarayonida integrativ metodlardan foydalanish qanchalik muhim? Quyidagi variantlardan eng to‘g‘ri va asosli javobni tanlang.',
+      options: ["Tarbiyachilar bir necha fanlar bilan bog‘liq holatlarda muammolarni hal qilish ko‘nikmasiga ega bo‘lishlari uchun integrativ yondashuv shart.", "Har bir pedagog o‘z mutaxassisligi doirasida ishlashi kerak, shuning uchun integratsiya ortiqcha.", "Integrativ metodlar tarbiyachilar uchun unchalik muhim emas, chunki asosiy kompetentsiyalar pedagogikaga bog‘liq.", "Integrativ metodlar faqat yuqori ta’lim tizimida qo‘llaniladi, maktabgacha ta’limda ularga ehtiyoj yo‘q."],
+      answer: "Tarbiyachilar bir necha fanlar bilan bog‘liq holatlarda muammolarni hal qilish ko‘nikmasiga ega bo‘lishlari uchun integrativ yondashuv shart.",
+    },
+    {
+      id: 2,
+      type: 'multiple_choice',
+      quiz: 'Siz tajribali tarbiyachisiz. Guruhingizdagi bolalar yangi interaktiv dars metodikasiga qiyinchilik bilan moslashmoqda. Ba’zilari tez o‘zlashtirayotgan bo‘lsa, boshqalari ortda qolmoqda. Shuningdek, ota-onalarning ba’zilari ushbu yangi metodni yoqlamayapti. Siz qanday strategiyani tanlaysiz?',
+      options: ["Ota-onalar bilan tushuntirish ishlari olib borish, bolalarning individual o‘ziga xos xususiyatlarini hisobga olgan holda metodikani moslashtirish", "Faqatgina ota-onalarning fikrini inobatga olib, eski usulga qaytish", "Tez o‘zlashtirayotgan bolalarni oldinga chiqarib, ortda qolayotganlarga e’tibor bermaslik.", "Faqat oldindan tuzilgan metodikaga tayanib, bolaning individual ehtiyojlarini hisobga olmaslik."],
+      answer: "Ota-onalar bilan tushuntirish ishlari olib borish, bolalarning individual o‘ziga xos xususiyatlarini hisobga olgan holda metodikani moslashtirish",
+    },
+    {
+      id: 3,
+      type: 'multiple_choice',
+      quiz: 'Tarbiyachining innovatsion kompetentsiyalarini rivojlantirishda qanday usullar eng samarali hisoblanadi?',
+      options: ["Faol o‘qitish metodlaridan foydalanish", "An’anaviy usullardan voz kechish", "Faqat bitta o‘quv qo‘llanmaga tayanish", "Shaxsiy tajribaga asoslangan holda metodlarni tanlash"],
+      answer: "Faol o‘qitish metodlaridan foydalanish",
+    },
+    {
+      id: 4,
+      type: 'multiple_choice',
+      quiz: 'Sizning guruhingizda bolalarning o‘quv motivatsiyasi pasaygan. Ularda yangi materiallarni o‘zlashtirish qiyinlashmoqda.',
+      options: ["Darslarni qiziqarli o‘yinlar orqali tashkil qilish", "Faqat nazariy ma’lumot berish", "Jazo tizimini kuchaytirish", "Materiallarni tezroq o‘tib ketish"],
+      answer: "Darslarni qiziqarli o‘yinlar orqali tashkil qilish",
+    },
+    {
+      id: 5,
+      type: 'multiple_choice',
+      quiz: 'Tarbiyachi yangi metodikani sinovdan o‘tkazish jarayonida nimalarga e’tibor berishi kerak?',
+      options: ["Bolalarning reaksiyasi va samaradorlik ko‘rsatkichlari", "Faqat o‘z tajribasiga tayanishi", "Metodikani birdaniga barcha guruhlarga joriy qilishi", "Faqatgina nazariy tahlil bilan cheklanishi"],
+      answer: "Bolalarning reaksiyasi va samaradorlik ko‘rsatkichlari",
+    }
+  ]
+}

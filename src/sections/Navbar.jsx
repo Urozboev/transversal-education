@@ -32,6 +32,7 @@ function Navbar() {
                                                 <li className={`${path.length < 3 && path[1] === 'keys' ? 'active' : ''}`}><Link to="/keys">Keyslar</Link></li>
                                                 <li className={`${path.length < 3 && path[1] === 'psychology-quiz' ? 'active' : ''}`}><Link to="/psychology-quiz">Psixologik testlar</Link></li>
                                                 <li className={`${path.length < 3 && path[1] === 'transversal' ? 'active' : ''}`}><Link to="/transversal">Transversal texnologiyalar</Link></li>
+                                                <li className={`${path.length < 3 && path[1] === 'laws' ? 'active' : ''}`}><Link to="/laws">Qaror va qoonunlar</Link></li>
                                                 <li className={`${path[1] === 'quiz' && path[2] === 'iq' ? 'active' : ''}`}><Link to="/quiz/iq">IQ testlar</Link></li>
                                                 <li className={`${path[1] === 'quiz' && path[2] === 'finish' ? 'active' : ''}`}><Link to="/quiz/finish">Yakuniy test</Link></li>
                                             </ul>

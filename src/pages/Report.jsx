@@ -1,6 +1,11 @@
 import { Link, Links } from "react-router-dom";
+import Test from "../sections/Test";
+import { reportQuestions } from "../utils/data";
+import { useState } from "react";
 
 function Report() {
+  const [quizNumber, setQuizNumber] = useState(0);
+  const [quizLength, setQuizLength] = useState(0);
   return (
     <main className="page_content">
       <section className="page_banner decoration_wrapper">
@@ -63,11 +68,10 @@ function Report() {
                   </div>
                   <div className="quote_content">
                     <span className="d-block">
-                      Iqtibos keltirish uchun joy. Qaysidir olim fikrlarini
-                      yozib qo'yaman. Lorem ipsum dolor sit amet.
+                      “Ta’lim prinsiplari bor ekan, hamisha tarbiya prinsiplari ham bo‘ladi, yoki aksincha.”
                     </span>
-                    <cite title="PhD. Ergasheva Barno">
-                      PhD. Ergasheva Barno
+                    <cite title="A.Disterveg">
+                      A.Disterveg
                     </cite>
                   </div>
                 </blockquote>
@@ -272,9 +276,7 @@ function Report() {
                     <div id="collapse_four" className="accordion-collapse collapse" aria-labelledby="heading_four"
                       data-bs-parent="#faq_accordion">
                       <div className="accordion-body">
-                        <p className="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                          Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <Test questionsData={reportQuestions['first']} setQuizNumber={setQuizNumber} setQuizLength={setQuizLength} />
                       </div>
                     </div>
                   </div>
@@ -377,9 +379,7 @@ function Report() {
                     <div id="collapse_n" className="accordion-collapse collapse" aria-labelledby="heading_n"
                       data-bs-parent="#faq_accordion">
                       <div className="accordion-body">
-                        <p className="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                          Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <Test questionsData={reportQuestions['second']} setQuizNumber={setQuizNumber} setQuizLength={setQuizLength} />
                       </div>
                     </div>
                   </div>
@@ -429,9 +429,7 @@ function Report() {
                     <div id="collapse_five" className="accordion-collapse collapse" aria-labelledby="heading_five"
                       data-bs-parent="#faq_accordion">
                       <div className="accordion-body">
-                        <p className="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                          Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <Test questionsData={reportQuestions['third']} setQuizNumber={setQuizNumber} setQuizLength={setQuizLength} />
                       </div>
                     </div>
                   </div>
@@ -466,24 +464,6 @@ function Report() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="prev_next_post_nav">
-                  <Link to="#!">
-                    <span className="item_icon">
-                      <i className="fa-regular fa-angle-left"></i>{" "}
-                    </span>
-                    <span className="item_content">
-                      <strong>Orqadagi bo'lim</strong>
-                    </span>
-                  </Link>
-                  <Link to="#!">
-                    <span className="item_icon">
-                      <i className="fa-regular fa-angle-right"></i>{" "}
-                    </span>
-                    <span className="item_content">
-                      <strong>Oldingi bo'lim</strong>
-                    </span>
-                  </Link>
-                </div> */}
               </div>
               <div className="blog_post_author">
                 <div className="author_image">
@@ -493,15 +473,12 @@ function Report() {
                   />
                 </div>
                 <div className="author_content">
-                  <h4 className="author_name">Ergasheva Barno</h4>
+                  <h4 className="author_name">Ergasheva B.Z.</h4>
                   <span className="author_designation">
-                    O'qituvchi, PhD, dotsent
+                    O'qituvchi
                   </span>
                   <p className="mb-0">
-                    Phasellus viverra nulla ut metus varius laoreet. Quisque
-                    Nullam quis ante. Etiam sit amet orci eget eros tincidunt.
-                    Phasellus viverra nulla ut metus varius laoreet. Quisque
-                    rutrum. Aenean imperdiet.
+                  Maktabgacha ta’limda metodika fanlarini o‘qitish texnologiyasining obyekti - o‘qituvchi va talabalarning birgalikdagi faoliyati bilan ifodalanadigan o`quv jarayoni bo`lib,  maktabgacha ta’lim jarayonida pedagogik texnologiyalarni qo‘llash va takomillashtirishga qaratilgan ta’lim-tarbiya faoliyati hisoblanadi.
                   </p>
                 </div>
               </div>
@@ -543,6 +520,12 @@ function Report() {
                       <Link to="/keys">
                         <i className="fa-solid fa-caret-right"></i>
                         <span className="category_name">Keyslar</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/laws">
+                        <i className="fa-solid fa-caret-right"></i>
+                        <span className="category_name">Qaror va qonunlar</span>
                       </Link>
                     </li>
                     <li>
