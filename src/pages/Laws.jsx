@@ -44,7 +44,7 @@ function Laws() {
                     <div id="collapse_one" className="accordion-collapse collapse" aria-labelledby="heading_one"
                       data-bs-parent="#faq_accordion">
                       <div className="accordion-body">
-                        <iframe className="my-iframe" src="/assets/files/buyruq.pdf#page=1&zoom=100" frameborder="0"></iframe>
+                        <iframe className="my-iframe" src="/assets/files/buyruq.pdf#page=1&zoom=100"></iframe>
                       </div>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ function Laws() {
                     <div id="collapse_four" className="accordion-collapse collapse" aria-labelledby="heading_four"
                       data-bs-parent="#faq_accordion">
                       <div className="accordion-body">
-                        <iframe className="my-iframe" src="/assets/files/ilk_qadam.pdf#page=1&zoom=100" frameborder="0"></iframe>
+                        <iframe className="my-iframe" src="/assets/files/ilk_qadam.pdf#page=1&zoom=100"></iframe>
                       </div>
                     </div>
                   </div>
